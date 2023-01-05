@@ -8,7 +8,17 @@
 		<title>PHP</title>
 	</head>
 	<body>
-		<?php require "blocks/header.php" ?>
+		<div class="d-flex flex-column flex-md-row align-items-center mb-4 border-bottom p-3 shadow">
+			<a href="/index.php" class="d-flex align-items-center text-dark text-decoration-none">				
+				<span class="fs-4">Технологии Веб-программирования</span>
+			</a>
+
+			<nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+				<a class="me-3 py-2 text-dark text-decoration-none" href="/index.php">Главная</a>
+				<a class="me-3 py-2 text-dark text-decoration-none" href="#">Контакты</a>				
+			</nav>
+				<a class="btn btn-outline-primary" href="#">Войти</a>	
+		</div>	
 		<div class="container">
 			<h1>Статьи</h1>
 			
@@ -35,8 +45,40 @@
 				
 			</div>
 		</div>
-		
-		<?php require "blocks/footer.php" ?>
+		<footer class="container pt-4 my-md-5 pt-md-5 border-top">
+			<div class="row">
+			  <div class="col-12 col-md">
+				<img class="mb-2" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
+				<small class="d-block mb-3 text-muted">© 2017–2022</small>
+			  </div>
+			  <div class="col-6 col-md">
+				<h5>Features</h5>
+				<ul class="list-unstyled text-small">
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+				</ul>
+			  </div>
+			  <div class="col-6 col-md">
+				<h5>Resources</h5>
+				<ul class="list-unstyled text-small">
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+				</ul>
+			  </div>
+			  <div class="col-6 col-md">
+				<h5 href = "">О сайте</h5>
+				<ul class="list-unstyled text-small">
+				  <li class="mb-1"><a class="link-secondary text-decoration-none" href="/about.php">Информация</a></li>				 
+				</ul>
+		</div>
+	</div>
+</footer>
 	</body>
 
 </html>
